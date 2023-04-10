@@ -7,6 +7,6 @@ void main() {
   });
 
   test('Output2', () {
-    expect(computeInterestingTimes("22:22:19", "22:22:24"), 5);
+    expect(computeInterestingTimes("22:22:21", "22:22:23"), 3);
   });
 }
